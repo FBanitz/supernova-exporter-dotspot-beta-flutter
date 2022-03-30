@@ -13,7 +13,7 @@ class InterfacileRadii {
   {[ if (radiusToken.description && radiusToken.description !== "") ]}
 {{ createDocumentationComment(radiusToken.description, "  ") }}
   {[/]}
-  static const {{ fullTokenName }} = BorderRadius.all(Radius.circular({[ inject "export_measure_value" context radiusToken.value.radius /]}));
+  static const BorderRadius {{ fullTokenName }} = BorderRadius.all(Radius.circular({[ inject "export_measure_value" context radiusToken.value.radius /]}));
 
   {[/]}
 {[/]}

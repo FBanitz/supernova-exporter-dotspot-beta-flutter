@@ -11,7 +11,7 @@ class InterfacileDimensions {
   {[ if (measureToken.description && measureToken.description !== "") ]}
 {{ createDocumentationComment(measureToken.description, "  ") }}
   {[/]}
-  static const {{ fullTokenName }} = {[ inject "export_measure_value" context measureToken.value /]};
+  static const int {{ fullTokenName }} = {[ inject "export_measure_value" context measureToken.value /]};
 
   {[/]}
 {[/]}

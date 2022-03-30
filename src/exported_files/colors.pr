@@ -13,7 +13,7 @@ class InterfacileColors {
   {[ if (colorToken.description && colorToken.description !== "") ]}
 {{ createDocumentationComment(colorToken.description, "  ") }}
   {[/]}
-  static const {{ fullTokenName }} = {[ inject "export_color_value" context colorToken.value /]}; 
+  static const Color {{ fullTokenName }} = {[ inject "export_color_value" context colorToken.value /]}; 
   
   {[/]}
 {[/]}
