@@ -27,6 +27,10 @@
         {
             "invoke": "text_styles.pr",
             "write_to": "text_styles.dart"
+        },
+        {
+            "invoke": "interfacile_theme.pr",
+            "write_to": "interfacile_theme.dart"
         }
     ]
 }
