@@ -1,6 +1,6 @@
 export './borders.dart';
 export './colors.dart';
-export './dimentions.dart';
+export './dimensions.dart';
 export './gradients.dart';
 export './radii.dart';
 export './shadows.dart';
