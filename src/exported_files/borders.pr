@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AppBorders {
+class InterfacileBorders {
 
 {[ let brand = ds.currentBrand() /]}
 {[ const borderTokensTree = ds.tokenGroupTreeByType("Border", brand.id) /]}
@@ -20,5 +20,5 @@ class AppBorders {
 
   {[/]}
 {[/]}
-  AppBorders._();
+  InterfacileBorders._();
 }

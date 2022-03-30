@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AppTextStyles {
+class InterfacileTextStyles {
 
 {[ let brand = ds.currentBrand() /]}
 {[ const typographyTokensTree = ds.tokenGroupTreeByType("Typography", brand.id) /]}
@@ -42,5 +42,5 @@ class AppTextStyles {
 
   {[/]}
 {[/]}
-  AppTextStyles._();
+  InterfacileTextStyles._();
 }

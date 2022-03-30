@@ -1,7 +1,7 @@
 {
-    "id": "io.supernova.flutter-styles",
-    "name": "Flutter",
-    "description": "Flutter token and style exporter",
+    "id": "io.supernova.dotspot-beta-flutter-styles",
+    "name": "Flutter Dotspot Beta",
+    "description": "Flutter token and style exporter for Dotspot Beta\n Based on the official Supernova exporter for Flutter by Artem Ufimtcev",
     "source_dir": "src",
     "version": "1.2",
     "tags": [
@@ -10,9 +10,9 @@
         "Tokens",
         "Styles"
     ],
-    "author": "Artem Ufimtcev",
-    "organization": "Supernova",
-    "homepage": "https://supernova.io",
+    "author": "François BANITZ",
+    "organization": "Interfacile",
+    "homepage": "https://interfacile.com",
     "usesBrands": true,
     "config": {
         "output": "output.json",
