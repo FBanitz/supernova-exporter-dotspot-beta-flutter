@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class InterfacileColors {
+class IFColors {
 
 {[ let brand = ds.currentBrand() /]}
 {[ const colorTokensTree = ds.tokenGroupTreeByType("Color", brand.id) /]}
@@ -17,5 +17,5 @@ class InterfacileColors {
   
   {[/]}
 {[/]}
-  InterfacileColors._();
+  IFColors._();
 }

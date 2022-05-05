@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class InterfacileRadii {
+class IFRadii {
 
 {[ let brand = ds.currentBrand() /]}
 {[ const radiusTokensTree = ds.tokenGroupTreeByType("Radius", brand.id) /]}
@@ -17,5 +17,5 @@ class InterfacileRadii {
 
   {[/]}
 {[/]}
-  InterfacileRadii._();
+  IFRadii._();
 }

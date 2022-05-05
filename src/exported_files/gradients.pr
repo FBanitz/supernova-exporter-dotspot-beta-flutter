@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class InterfacileGradients {
+class IFGradients {
 
 {[ let brand = ds.currentBrand() /]}
 {[ const gradientTokensTree = ds.tokenGroupTreeByType("Gradient", brand.id) /]}
@@ -31,5 +31,5 @@ class InterfacileGradients {
 
   {[/]}
 {[/]}
-  InterfacileGradients._();
+  IFGradients._();
 }

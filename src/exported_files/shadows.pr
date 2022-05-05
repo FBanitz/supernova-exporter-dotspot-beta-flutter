@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class InterfacileShadows {
+class IFShadows {
 
 {[ let brand = ds.currentBrand() /]}
 {[ const shadowTokensTree = ds.tokenGroupTreeByType("Shadow", brand.id) /]}
@@ -22,5 +22,5 @@ class InterfacileShadows {
 
   {[/]}
 {[/]}
-  InterfacileShadows._();
+  IFShadows._();
 }

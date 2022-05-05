@@ -1,4 +1,4 @@
-class InterfacileDimensions {
+class IFDimensions {
 
 {[ let brand = ds.currentBrand() /]}
 {[ const measureTokensTree = ds.tokenGroupTreeByType("Measure", brand.id) /]}
@@ -15,5 +15,5 @@ class InterfacileDimensions {
 
   {[/]}
 {[/]}
-  InterfacileDimensions._();
+  IFDimensions._();
 }
